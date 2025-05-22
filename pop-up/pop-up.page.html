@@ -1,0 +1,64 @@
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allena</title>
+    <link rel="stylesheet" href="pop-up.page.scss" />
+  </head>
+
+<body>
+  <header> 
+    <!-- <span class="icon">🦎</span> -->
+    <img src="allena-logo-no-name.png" alt="Mascote Allena" class="logo" />
+    <h1 style="width: 100%;">Allena</h1>
+  </header>
+
+  <div class="popup">
+    <button id="microphoneBtn" class="voice-btn">
+      <span class="icon">🎤</span>
+      Ativar Comando de Voz
+    </button>
+
+<!-- <button onclick="fixar()">Fixar</button> -->
+   
+
+    <span><strong>Velocidade da voz:</strong></span>
+     <div id="speedVoice" style="display: flex; justify-content: space-around; margin: 10px;">
+        <div class="circle" style="display:flex; align-items: center; justify-content: center;" >
+          <h1 class="speed" >1.0x</h1>
+        </div>
+        <div class="circle"  style="display:flex; align-items: center; justify-content: center;" id="speed-1.5">
+          <h1 class="speed">1.5x</h1>
+        </div>
+        <div class="circle"  style="display:flex; align-items: center; justify-content: center;" id="speed-2.">
+          <h1 class="speed">2.0x</h1>
+        </div>
+     </div>   
+     
+      <div class="feedback">
+        Você disse: <q id="transcription"></q>
+      </div>
+
+
+     <!-- <div class="transcription-container">
+      Você disse: <q id="transcription"></q>
+     </div> -->
+
+    <section class="examples">
+      <h4><strong>Exemplos de comandos:</strong></h4>
+      <ul>
+        <li>Ler título da página</li>
+        <li>Ir para o botão de comprar</li>
+        <li>Descrever imagem principal</li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="#">Sobre a Allena</a> ·
+      <a href="#">Ajuda</a>
+    </footer>
+  </div>
+
+</body>
+
+<script src="pop-up.js" defer></script>

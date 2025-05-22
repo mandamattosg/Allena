@@ -1,0 +1,35 @@
+{
+  "name": "Allena",
+  "description": "Transformando voz em ação",
+  "version": "1.39",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "notifications",
+    "contextMenus",
+    "activeTab",
+    "speechRecognition",
+    "windows"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "pop-up.page.html",
+    "default_icon": "/allena-logo-no-name.png"
+  },
+   "web_accessible_resources": [
+  {
+    "resources": ["pop-up.page.html"],
+    "matches": ["<all_urls>"]
+  }
+],
+  "host_permissions": ["<all_urls>"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

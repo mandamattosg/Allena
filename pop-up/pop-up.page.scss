@@ -1,0 +1,146 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: #fdf1e4;
+  color: #2b355f;
+}
+
+.popup {
+
+  // width: 300px;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+header {
+  background-color: #2b355f;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+
+
+   position: relative; 
+   top: 10px;
+}
+
+.logo {
+  width: 32px;
+  margin-right: 0.5rem;
+}
+
+.voice-btn {
+  width: 100%;
+  background-color: #e7719e;
+  box-shadow:  0px 0px 5px 0px #111525a9;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #2b355f;
+  font-size: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+.feedback {
+  border: 2px solid #2b355f;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background: #fff;
+  font-size: 0.9rem;
+  color: #EF8AB0;
+}
+
+.examples {
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+.examples h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.examples ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.examples li {
+  margin-bottom: 0.3rem;
+  font: inherit;
+}
+
+.allena-says {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.balloon {
+  border: 2px solid #2b355f;
+  padding: 0.5rem 0.75rem;
+  border-radius: 12px;
+  margin-right: 0.5rem;
+  background: white;
+  font-size: 0.9rem;
+  color: #EF8AB0;
+}
+
+.mascote {
+  width: 40px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e7719e;
+  box-shadow: inset 2px 0px 2px 0px #2b355f70;
+
+}
+
+.speed {
+  color: white;
+  border-radius: 40%;
+  font-size: 0.7rem;
+  position: relative;
+  // bottom: 5px;
+}
+
+.transcription-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  border: #2b355f 1px solid;
+}
+
+
+
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 1rem;
+  border-top: 1px solid #2b355f;
+  padding-top: 0.5rem;
+}
+
+footer a {
+  color: #2b355f;
+  text-decoration: none;
+  margin: 0 0.3rem;
+}
