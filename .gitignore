@@ -1,3 +1,8 @@
 # Segurança
 **/.env
 **/auth.json
+**/auth.json.json
+**/allena-*.json
+
+# Vídeos
+*.mp4
