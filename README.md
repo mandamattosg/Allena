@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/allena-logo.png" alt="Logo da Allena" width="200">
+</p>
+
 # Allena
 
 A Allena é uma extensão para Chrome baseada em IA desenvolvida para a competição Inovathon WTM 2025. A equipe SheCodes formada por Amanda Gontijo, Ellen Morgana e Laissa Soares conquistou o 1º Lugar!
